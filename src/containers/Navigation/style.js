@@ -26,11 +26,12 @@ export const StyledLink = styled(NavLink)`
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1) .3s;
     :hover{
-        background-color: #013;
+        background-color: #0f0f0f;
     }
     &.active {
         color: red;
-        background-color: #013;
+        background-color: #0f0f0f;
     }
 `;

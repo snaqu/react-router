@@ -4,7 +4,6 @@ import {
     ListItem,
     StyledLink,
 } from './style';
-// import { BrowserRouter as Router, Route, NavLink, Switch } from "react-router-dom";
 
 const list = [
     { name: 'Home', path: '/' },

@@ -19,7 +19,7 @@ export const ContainerWidth = styled.div`
 
 export const HeaderContainer = styled.header`
     width: 100%;
-    height: 700px;
+    min-height: 300px;
     background-color: gray;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@ export const HeaderContainer = styled.header`
 `;
 export const MainContainer = styled.main`
     width: 100%;
-    min-height: 900px;
+    min-height: 500px;
     height: 100%;
     background-color: #fff;
     display: flex;
@@ -42,7 +42,7 @@ export const MainContainer = styled.main`
 export const NavContainer = styled.nav`
     width: 100%;
     height: 70px;
-    background-color: black;
+    background-color: #212121;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,20 +50,20 @@ export const NavContainer = styled.nav`
     `;
 
 export const BlogContainer = styled.section`
-    width: 100%;
     height: 100%;
-    background-color: #f2f2f2;
+    min-height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 60px 0;
+    padding: 60px;
 `;
 
 export const FooterContainer = styled.footer`
     width: 100%;
-    height: 120px;
-    background-color: #D3D3D3;
+    height: 40px;
+    background-color: #212121;
+    color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;

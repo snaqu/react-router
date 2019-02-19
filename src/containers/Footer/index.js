@@ -1,11 +1,11 @@
 import React from 'react';
-// import { } from './style';
+import { Paragraph } from './style';
 
 const Footer = () => {
     return (
-        <div>
-            Footer
-        </div>
+        <Paragraph>
+            Training of React Router
+        </Paragraph>
     );
 }
 

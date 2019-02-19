@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
 export const BlogContainer = styled.div`
-    padding: 0 100px;
+    width: 100%;
+    height: 100%;
+    min-height: 430px;
 `;
